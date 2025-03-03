@@ -1,0 +1,127 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #a8cff7;
+  text-align: center;
+  height: 0px;
+  padding: 6%;
+}
+
+.container:hover {
+  background-color: #f3b9ec;
+}
+
+.container {
+  background-color: #ffbff6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.birthday-message h1 {
+  color: #e01ca8;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.birthday-message p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 5px solid #cddfc1;
+}
+
+button {
+  background-color: #8d47ff;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2dc0ed;
+}
+
+/* Responsive Styles */
+
+/* For mobile devices */
+@media (max-width: 600px) {
+  .birthday-message h1 {
+    font-size: 2em;
+  }
+
+  .birthday-message p {
+    font-size: 1em;
+  }
+
+  .image img {
+    width: 120px;
+    height: 120px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+  .birthday-message h1 {
+    font-size: 2.5em;
+  }
+
+  .birthday-message p {
+    font-size: 1.1em;
+  }
+
+  .image img {
+    width: 130px;
+    height: 130px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+}
+
+/* For larger screens */
+@media (min-width: 1024px) {
+  .birthday-message h1 {
+    font-size: 3.5em;
+  }
+
+  .birthday-message p {
+    font-size: 1.3em;
+  }
+
+  .image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  button {
+    padding: 12px 24px;
+    font-size: 1.1em;
+  }
+}
